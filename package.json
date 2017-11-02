@@ -134,7 +134,9 @@
     "setupFiles": [
       "./shim.js"
     ],
-    "snapshotSerializers": ["enzyme-to-json/serializer"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "license": "MIT",
   "author": {
@@ -143,6 +145,7 @@
   },
   "dependencies": {
     "algolia-aerial": "^1.1.4",
-    "algolia-frontend-components": "^0.0.34"
+    "algolia-frontend-components": "^0.0.34",
+    "storybook-addon-a11y": "^3.1.9"
   }
 }
